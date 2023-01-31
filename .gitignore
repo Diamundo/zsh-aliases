@@ -1,0 +1,6 @@
+# custom gitignore to include only specific files
+
+*
+
+!.gitignore
+!aliases.zsh
