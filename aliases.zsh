@@ -3,6 +3,11 @@ alias alias_reload="source ~/.zshrc"
 alias alias_edit="nano ~/.oh-my-zsh/custom/aliases.zsh;"
 alias alias_print="cat ~/.oh-my-zsh/custom/aliases.zsh;"
 
+# PHP version aliases
+alias php74="/opt/homebrew/Cellar/php@7.4/7.4.33_1/bin/php"
+alias php8="/opt/homebrew/Cellar/php@8.0/8.0.27_1/bin/php"
+alias php81="/opt/homebrew/Cellar/php@8.1/8.1.15/bin/php"
+
 # PHP commands
 alias pc="php console" # for php 7
 alias pa="php artisan" # for php 8
@@ -38,12 +43,10 @@ alias remigrate="pa migrate:rollback;pa migrate --step;"
 #Valet commands
 alias valet74="valet use php@7.4;composer global update;"
 alias valet80="valet use php@8.0;composer global update;"
+alias valet81="valet use php@8.1;composer global update;"
 alias valet7="valet74;"
 alias valet8="valet80;"
 alias vu="valet use;composer global update;"
-
-alias php7="/opt/homebrew/Cellar/php@7.4/7.4.33/bin/php";
-alias php8="/opt/homebrew/Cellar/php@8.0/8.0.26/bin/php";
 
 # SSH aliases
 alias ssh-wensk="ssh forge@185.161.141.166 -p 9999"
