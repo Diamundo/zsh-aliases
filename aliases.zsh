@@ -2,6 +2,7 @@
 alias alias_reload="source ~/.zshrc"
 alias alias_edit="nano ~/.oh-my-zsh/custom/aliases.zsh;"
 alias alias_print="cat ~/.oh-my-zsh/custom/aliases.zsh;"
+alias alias_cd="cd ~/.oh-my-zsh/custom/;"
 
 # PHP version aliases
 alias php74="/opt/homebrew/Cellar/php@7.4/7.4.33_1/bin/php"
@@ -56,3 +57,5 @@ alias ssh-wefabric-1="ssh forge@185.14.187.199"
 alias ssh-wefabric-2="ssh forge@138.197.191.186"
 alias ssh-jongkfps="ssh forge@82.196.6.60"
 alias ssh-slump="ssh forge@37.139.7.232"
+alias ssh-theinnerway-1="ssh forge@37.97.132.61"
+alias ssh-dss="ssh forge@185.161.140.130"
