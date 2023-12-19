@@ -50,12 +50,4 @@ alias valet8="valet80;"
 alias vu="valet use;composer global update;"
 
 # SSH aliases
-alias ssh-wensk="ssh forge@185.161.141.166"
-alias ssh-alfana-s4="ssh forge@185.161.141.109"
-alias ssh-alfana-s1="ssh forge@185.161.141.110"
-alias ssh-wefabric-1="ssh forge@185.14.187.199"
-alias ssh-wefabric-2="ssh forge@138.197.191.186"
-alias ssh-jongkfps="ssh forge@82.196.6.60"
-alias ssh-slump="ssh forge@37.139.7.232"
 alias ssh-theinnerway-1="ssh forge@37.97.132.61"
-alias ssh-dss="ssh forge@185.161.140.130"
